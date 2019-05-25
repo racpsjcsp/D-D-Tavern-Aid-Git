@@ -1,0 +1,44 @@
+[
+	{
+		"_class": "Artificer"
+	},
+	{
+		"_class": "Barbarian"
+	},
+	{
+		"_class": "Bard"
+	},
+	{
+		"_class": "Blood Hunter"
+	},
+	{
+		"_class": "Cleric"
+	},
+	{
+		"_class": "Druid"
+	},
+	{
+		"_class": "Fighter"
+	},
+	{
+		"_class": "Monk"
+	},
+	{
+		"_class": "Paladin"
+	},
+	{
+		"_class": "Ranger"
+	},
+	{
+		"_class": "Rogue"
+	},
+	{
+		"_class": "Sorcerer"
+	},
+	{
+		"_class": "Warlock"
+	},
+	{
+		"_class": "Wizard"
+	}
+]

@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53039A762285E4580087AD52 /* RumorsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53039A752285E4580087AD52 /* RumorsManager.swift */; };
+		53039A782285E66E0087AD52 /* Rumor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53039A772285E66E0087AD52 /* Rumor.swift */; };
+		53039A7A2285F6740087AD52 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53039A792285F6740087AD52 /* Food.swift */; };
+		53039A7C2285F84A0087AD52 /* DrinksManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53039A7B2285F84A0087AD52 /* DrinksManager.swift */; };
+		53039A7E2285F8600087AD52 /* AccommodationsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53039A7D2285F8600087AD52 /* AccommodationsManager.swift */; };
+		53039A802285F8760087AD52 /* FoodManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53039A7F2285F8760087AD52 /* FoodManager.swift */; };
+		53039A8B2287BE560087AD52 /* REST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53039A8A2287BE560087AD52 /* REST.swift */; };
+		53039A8F228897410087AD52 /* Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53039A8E228897410087AD52 /* Name.swift */; };
+		530EB13F228F35B3002A5902 /* TavernName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530EB13E228F35B3002A5902 /* TavernName.swift */; };
+		530EB141228F35EE002A5902 /* TavernNameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530EB140228F35EE002A5902 /* TavernNameManager.swift */; };
+		530EB145228F3CDD002A5902 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530EB144228F3CDD002A5902 /* MainViewController.swift */; };
+		530F2697228A16AE00431C0A /* bartenderNames.json in Resources */ = {isa = PBXBuildFile; fileRef = 530F2696228A16AE00431C0A /* bartenderNames.json */; };
+		530F2699228A16B300431C0A /* races.json in Resources */ = {isa = PBXBuildFile; fileRef = 530F2698228A16B300431C0A /* races.json */; };
+		5318AD9C22949DD4009D4E2B /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = 5318AD9B22949DD3009D4E2B /* test.json */; };
+		5318AD9E229709F9009D4E2B /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5318AD9D229709F9009D4E2B /* UIView+Extension.swift */; };
+		5318ADA022970B3A009D4E2B /* ColorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5318AD9F22970B3A009D4E2B /* ColorConstants.swift */; };
+		5337D8D2228A17BC00A539C7 /* Bartender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5337D8D1228A17BC00A539C7 /* Bartender.swift */; };
+		5337D8D4228A17CA00A539C7 /* BartenderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5337D8D3228A17CA00A539C7 /* BartenderManager.swift */; };
+		5337D8D6228A1B7700A539C7 /* Race.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5337D8D5228A1B7700A539C7 /* Race.swift */; };
+		5337D8D8228A1BAC00A539C7 /* RacesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5337D8D7228A1BAC00A539C7 /* RacesManager.swift */; };
+		5337D8DA228A214200A539C7 /* tavernNames.json in Resources */ = {isa = PBXBuildFile; fileRef = 5337D8D9228A214200A539C7 /* tavernNames.json */; };
+		535A2556228A29CA00971B67 /* otherDrinks.json in Resources */ = {isa = PBXBuildFile; fileRef = 535A254D228A29CA00971B67 /* otherDrinks.json */; };
+		535A2557228A29CA00971B67 /* planarDrinks.json in Resources */ = {isa = PBXBuildFile; fileRef = 535A254E228A29CA00971B67 /* planarDrinks.json */; };
+		535A2558228A29CA00971B67 /* wine.json in Resources */ = {isa = PBXBuildFile; fileRef = 535A254F228A29CA00971B67 /* wine.json */; };
+		535A2559228A29CA00971B67 /* underdarkDrinks.json in Resources */ = {isa = PBXBuildFile; fileRef = 535A2550228A29CA00971B67 /* underdarkDrinks.json */; };
+		535A255A228A29CA00971B67 /* nonAlcoholicDrinks.json in Resources */ = {isa = PBXBuildFile; fileRef = 535A2551228A29CA00971B67 /* nonAlcoholicDrinks.json */; };
+		535A255B228A29CA00971B67 /* fineWine.json in Resources */ = {isa = PBXBuildFile; fileRef = 535A2552228A29CA00971B67 /* fineWine.json */; };
+		535A255C228A29CA00971B67 /* ale.json in Resources */ = {isa = PBXBuildFile; fileRef = 535A2553228A29CA00971B67 /* ale.json */; };
+		535A255D228A29CA00971B67 /* magicDrinks.json in Resources */ = {isa = PBXBuildFile; fileRef = 535A2554228A29CA00971B67 /* magicDrinks.json */; };
+		535A255E228A29CA00971B67 /* cheapDrinks.json in Resources */ = {isa = PBXBuildFile; fileRef = 535A2555228A29CA00971B67 /* cheapDrinks.json */; };
+		535A2560228B75A000971B67 /* NPCLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535A255F228B75A000971B67 /* NPCLevel.swift */; };
+		535A2562228B75D500971B67 /* NPCLevelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535A2561228B75D500971B67 /* NPCLevelManager.swift */; };
+		535A2564228E034F00971B67 /* rumors.json in Resources */ = {isa = PBXBuildFile; fileRef = 535A2563228E034F00971B67 /* rumors.json */; };
+		535A2568228E098800971B67 /* clientele.json in Resources */ = {isa = PBXBuildFile; fileRef = 535A2565228E098800971B67 /* clientele.json */; };
+		535A2569228E098800971B67 /* accommodations.json in Resources */ = {isa = PBXBuildFile; fileRef = 535A2566228E098800971B67 /* accommodations.json */; };
+		535A256A228E098800971B67 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 535A2567228E098800971B67 /* menu.json */; };
+		535A256D228E0B0400971B67 /* suffix.json in Resources */ = {isa = PBXBuildFile; fileRef = 535A256B228E0B0400971B67 /* suffix.json */; };
+		535A256E228E0B0400971B67 /* prefix.json in Resources */ = {isa = PBXBuildFile; fileRef = 535A256C228E0B0400971B67 /* prefix.json */; };
+		535EC3712294556B0014A2C2 /* Quest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535EC3702294556B0014A2C2 /* Quest.swift */; };
+		535EC37322945DC10014A2C2 /* QuestsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535EC37222945DC10014A2C2 /* QuestsManager.swift */; };
+		535EC37522946DBA0014A2C2 /* QuestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535EC37422946DBA0014A2C2 /* QuestViewController.swift */; };
+		53A10833228F6A0300287D67 /* Clientele.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A10832228F6A0300287D67 /* Clientele.swift */; };
+		53A10835228F6A2D00287D67 /* ClienteleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A10834228F6A2D00287D67 /* ClienteleManager.swift */; };
+		53A10837228F7CBB00287D67 /* classes.json in Resources */ = {isa = PBXBuildFile; fileRef = 53A10836228F7CBA00287D67 /* classes.json */; };
+		53A10839228F7D6F00287D67 /* level.json in Resources */ = {isa = PBXBuildFile; fileRef = 53A10838228F7D6F00287D67 /* level.json */; };
+		53A1083B228F7D7400287D67 /* gender.json in Resources */ = {isa = PBXBuildFile; fileRef = 53A1083A228F7D7400287D67 /* gender.json */; };
+		53A1083F22906D4C00287D67 /* GenderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A1083E22906D4C00287D67 /* GenderManager.swift */; };
+		53E324142285C98A0047571D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E324132285C98A0047571D /* AppDelegate.swift */; };
+		53E324192285C98A0047571D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53E324172285C98A0047571D /* Main.storyboard */; };
+		53E3241C2285C98A0047571D /* D_D_Tavern_Aid.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 53E3241A2285C98A0047571D /* D_D_Tavern_Aid.xcdatamodeld */; };
+		53E3241E2285C98C0047571D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53E3241D2285C98C0047571D /* Assets.xcassets */; };
+		53E324212285C98C0047571D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53E3241F2285C98C0047571D /* LaunchScreen.storyboard */; };
+		53E324292285CB9A0047571D /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E324282285CB9A0047571D /* Drink.swift */; };
+		53E3242B2285CD4D0047571D /* Accommodations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E3242A2285CD4D0047571D /* Accommodations.swift */; };
+		53E324312285CDD90047571D /* Taverns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E324302285CDD90047571D /* Taverns.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		53039A752285E4580087AD52 /* RumorsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RumorsManager.swift; sourceTree = "<group>"; };
+		53039A772285E66E0087AD52 /* Rumor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rumor.swift; sourceTree = "<group>"; };
+		53039A792285F6740087AD52 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		53039A7B2285F84A0087AD52 /* DrinksManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinksManager.swift; sourceTree = "<group>"; };
+		53039A7D2285F8600087AD52 /* AccommodationsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccommodationsManager.swift; sourceTree = "<group>"; };
+		53039A7F2285F8760087AD52 /* FoodManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodManager.swift; sourceTree = "<group>"; };
+		53039A8A2287BE560087AD52 /* REST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REST.swift; sourceTree = "<group>"; };
+		53039A8E228897410087AD52 /* Name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Name.swift; sourceTree = "<group>"; };
+		530EB13E228F35B3002A5902 /* TavernName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TavernName.swift; sourceTree = "<group>"; };
+		530EB140228F35EE002A5902 /* TavernNameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TavernNameManager.swift; sourceTree = "<group>"; };
+		530EB144228F3CDD002A5902 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		530F2696228A16AE00431C0A /* bartenderNames.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bartenderNames.json; sourceTree = "<group>"; };
+		530F2698228A16B300431C0A /* races.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = races.json; sourceTree = "<group>"; };
+		5318AD9B22949DD3009D4E2B /* test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = test.json; sourceTree = "<group>"; };
+		5318AD9D229709F9009D4E2B /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		5318AD9F22970B3A009D4E2B /* ColorConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConstants.swift; sourceTree = "<group>"; };
+		5337D8D1228A17BC00A539C7 /* Bartender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bartender.swift; sourceTree = "<group>"; };
+		5337D8D3228A17CA00A539C7 /* BartenderManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BartenderManager.swift; sourceTree = "<group>"; };
+		5337D8D5228A1B7700A539C7 /* Race.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Race.swift; sourceTree = "<group>"; };
+		5337D8D7228A1BAC00A539C7 /* RacesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RacesManager.swift; sourceTree = "<group>"; };
+		5337D8D9228A214200A539C7 /* tavernNames.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tavernNames.json; sourceTree = "<group>"; };
+		535A254D228A29CA00971B67 /* otherDrinks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = otherDrinks.json; sourceTree = "<group>"; };
+		535A254E228A29CA00971B67 /* planarDrinks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = planarDrinks.json; sourceTree = "<group>"; };
+		535A254F228A29CA00971B67 /* wine.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = wine.json; sourceTree = "<group>"; };
+		535A2550228A29CA00971B67 /* underdarkDrinks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = underdarkDrinks.json; sourceTree = "<group>"; };
+		535A2551228A29CA00971B67 /* nonAlcoholicDrinks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nonAlcoholicDrinks.json; sourceTree = "<group>"; };
+		535A2552228A29CA00971B67 /* fineWine.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fineWine.json; sourceTree = "<group>"; };
+		535A2553228A29CA00971B67 /* ale.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ale.json; sourceTree = "<group>"; };
+		535A2554228A29CA00971B67 /* magicDrinks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = magicDrinks.json; sourceTree = "<group>"; };
+		535A2555228A29CA00971B67 /* cheapDrinks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cheapDrinks.json; sourceTree = "<group>"; };
+		535A255F228B75A000971B67 /* NPCLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NPCLevel.swift; sourceTree = "<group>"; };
+		535A2561228B75D500971B67 /* NPCLevelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NPCLevelManager.swift; sourceTree = "<group>"; };
+		535A2563228E034F00971B67 /* rumors.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = rumors.json; sourceTree = "<group>"; };
+		535A2565228E098800971B67 /* clientele.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = clientele.json; sourceTree = "<group>"; };
+		535A2566228E098800971B67 /* accommodations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = accommodations.json; sourceTree = "<group>"; };
+		535A2567228E098800971B67 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
+		535A256B228E0B0400971B67 /* suffix.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = suffix.json; sourceTree = "<group>"; };
+		535A256C228E0B0400971B67 /* prefix.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = prefix.json; sourceTree = "<group>"; };
+		535EC3702294556B0014A2C2 /* Quest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quest.swift; sourceTree = "<group>"; };
+		535EC37222945DC10014A2C2 /* QuestsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestsManager.swift; sourceTree = "<group>"; };
+		535EC37422946DBA0014A2C2 /* QuestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestViewController.swift; sourceTree = "<group>"; };
+		53A10832228F6A0300287D67 /* Clientele.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clientele.swift; sourceTree = "<group>"; };
+		53A10834228F6A2D00287D67 /* ClienteleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClienteleManager.swift; sourceTree = "<group>"; };
+		53A10836228F7CBA00287D67 /* classes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = classes.json; sourceTree = "<group>"; };
+		53A10838228F7D6F00287D67 /* level.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = level.json; sourceTree = "<group>"; };
+		53A1083A228F7D7400287D67 /* gender.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = gender.json; sourceTree = "<group>"; };
+		53A1083E22906D4C00287D67 /* GenderManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderManager.swift; sourceTree = "<group>"; };
+		53E324102285C98A0047571D /* D&D Tavern Aid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "D&D Tavern Aid.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53E324132285C98A0047571D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		53E324182285C98A0047571D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53E3241B2285C98A0047571D /* D_D_Tavern_Aid.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = D_D_Tavern_Aid.xcdatamodel; sourceTree = "<group>"; };
+		53E3241D2285C98C0047571D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53E324202285C98C0047571D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		53E324222285C98C0047571D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53E324282285CB9A0047571D /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+		53E3242A2285CD4D0047571D /* Accommodations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accommodations.swift; sourceTree = "<group>"; };
+		53E324302285CDD90047571D /* Taverns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taverns.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53E3240D2285C98A0047571D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53039A822286448B0087AD52 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				53E3242A2285CD4D0047571D /* Accommodations.swift */,
+				53039A7D2285F8600087AD52 /* AccommodationsManager.swift */,
+				5337D8D1228A17BC00A539C7 /* Bartender.swift */,
+				5337D8D3228A17CA00A539C7 /* BartenderManager.swift */,
+				53A10832228F6A0300287D67 /* Clientele.swift */,
+				53A10834228F6A2D00287D67 /* ClienteleManager.swift */,
+				53E324282285CB9A0047571D /* Drink.swift */,
+				53039A7B2285F84A0087AD52 /* DrinksManager.swift */,
+				53039A792285F6740087AD52 /* Food.swift */,
+				53039A7F2285F8760087AD52 /* FoodManager.swift */,
+				53A1083E22906D4C00287D67 /* GenderManager.swift */,
+				53039A8E228897410087AD52 /* Name.swift */,
+				535A255F228B75A000971B67 /* NPCLevel.swift */,
+				535A2561228B75D500971B67 /* NPCLevelManager.swift */,
+				535EC3702294556B0014A2C2 /* Quest.swift */,
+				535EC37222945DC10014A2C2 /* QuestsManager.swift */,
+				5337D8D5228A1B7700A539C7 /* Race.swift */,
+				5337D8D7228A1BAC00A539C7 /* RacesManager.swift */,
+				53039A772285E66E0087AD52 /* Rumor.swift */,
+				53039A752285E4580087AD52 /* RumorsManager.swift */,
+				530EB13E228F35B3002A5902 /* TavernName.swift */,
+				530EB140228F35EE002A5902 /* TavernNameManager.swift */,
+				53E324302285CDD90047571D /* Taverns.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		53039A83228644A70087AD52 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				53E324172285C98A0047571D /* Main.storyboard */,
+				53E3241F2285C98C0047571D /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		53039A84228644ED0087AD52 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				530EB144228F3CDD002A5902 /* MainViewController.swift */,
+				535EC37422946DBA0014A2C2 /* QuestViewController.swift */,
+				53039A8A2287BE560087AD52 /* REST.swift */,
+				5318AD9D229709F9009D4E2B /* UIView+Extension.swift */,
+				5318AD9F22970B3A009D4E2B /* ColorConstants.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		53039A87228645360087AD52 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				535A2566228E098800971B67 /* accommodations.json */,
+				535A2553228A29CA00971B67 /* ale.json */,
+				530F2696228A16AE00431C0A /* bartenderNames.json */,
+				535A2555228A29CA00971B67 /* cheapDrinks.json */,
+				535A2565228E098800971B67 /* clientele.json */,
+				535A256C228E0B0400971B67 /* prefix.json */,
+				53A10836228F7CBA00287D67 /* classes.json */,
+				535A256B228E0B0400971B67 /* suffix.json */,
+				535A2552228A29CA00971B67 /* fineWine.json */,
+				535A2554228A29CA00971B67 /* magicDrinks.json */,
+				535A2567228E098800971B67 /* menu.json */,
+				53A1083A228F7D7400287D67 /* gender.json */,
+				5318AD9B22949DD3009D4E2B /* test.json */,
+				53A10838228F7D6F00287D67 /* level.json */,
+				5337D8D9228A214200A539C7 /* tavernNames.json */,
+				535A2551228A29CA00971B67 /* nonAlcoholicDrinks.json */,
+				535A254D228A29CA00971B67 /* otherDrinks.json */,
+				535A254E228A29CA00971B67 /* planarDrinks.json */,
+				530F2698228A16B300431C0A /* races.json */,
+				535A2563228E034F00971B67 /* rumors.json */,
+				535A2550228A29CA00971B67 /* underdarkDrinks.json */,
+				535A254F228A29CA00971B67 /* wine.json */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		53E324072285C98A0047571D = {
+			isa = PBXGroup;
+			children = (
+				53E324122285C98A0047571D /* D&D Tavern Aid */,
+				53E324112285C98A0047571D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53E324112285C98A0047571D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53E324102285C98A0047571D /* D&D Tavern Aid.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53E324122285C98A0047571D /* D&D Tavern Aid */ = {
+			isa = PBXGroup;
+			children = (
+				53039A87228645360087AD52 /* Files */,
+				53E324132285C98A0047571D /* AppDelegate.swift */,
+				53039A84228644ED0087AD52 /* Controllers */,
+				53039A83228644A70087AD52 /* Views */,
+				53E3241D2285C98C0047571D /* Assets.xcassets */,
+				53039A822286448B0087AD52 /* Models */,
+				53E324222285C98C0047571D /* Info.plist */,
+				53E3241A2285C98A0047571D /* D_D_Tavern_Aid.xcdatamodeld */,
+			);
+			path = "D&D Tavern Aid";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53E3240F2285C98A0047571D /* D&D Tavern Aid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53E324252285C98C0047571D /* Build configuration list for PBXNativeTarget "D&D Tavern Aid" */;
+			buildPhases = (
+				53E3240C2285C98A0047571D /* Sources */,
+				53E3240D2285C98A0047571D /* Frameworks */,
+				53E3240E2285C98A0047571D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "D&D Tavern Aid";
+			productName = "D&D Tavern Aid";
+			productReference = 53E324102285C98A0047571D /* D&D Tavern Aid.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53E324082285C98A0047571D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Rafael Plinio";
+				TargetAttributes = {
+					53E3240F2285C98A0047571D = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 53E3240B2285C98A0047571D /* Build configuration list for PBXProject "D&D Tavern Aid" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53E324072285C98A0047571D;
+			productRefGroup = 53E324112285C98A0047571D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53E3240F2285C98A0047571D /* D&D Tavern Aid */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53E3240E2285C98A0047571D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53E324212285C98C0047571D /* LaunchScreen.storyboard in Resources */,
+				535A256A228E098800971B67 /* menu.json in Resources */,
+				530F2697228A16AE00431C0A /* bartenderNames.json in Resources */,
+				535A2569228E098800971B67 /* accommodations.json in Resources */,
+				535A2558228A29CA00971B67 /* wine.json in Resources */,
+				535A2568228E098800971B67 /* clientele.json in Resources */,
+				53E3241E2285C98C0047571D /* Assets.xcassets in Resources */,
+				535A255E228A29CA00971B67 /* cheapDrinks.json in Resources */,
+				53A1083B228F7D7400287D67 /* gender.json in Resources */,
+				535A255D228A29CA00971B67 /* magicDrinks.json in Resources */,
+				5337D8DA228A214200A539C7 /* tavernNames.json in Resources */,
+				535A2559228A29CA00971B67 /* underdarkDrinks.json in Resources */,
+				53E324192285C98A0047571D /* Main.storyboard in Resources */,
+				535A2556228A29CA00971B67 /* otherDrinks.json in Resources */,
+				535A2557228A29CA00971B67 /* planarDrinks.json in Resources */,
+				535A2564228E034F00971B67 /* rumors.json in Resources */,
+				53A10839228F7D6F00287D67 /* level.json in Resources */,
+				5318AD9C22949DD4009D4E2B /* test.json in Resources */,
+				535A255B228A29CA00971B67 /* fineWine.json in Resources */,
+				53A10837228F7CBB00287D67 /* classes.json in Resources */,
+				535A256E228E0B0400971B67 /* prefix.json in Resources */,
+				535A256D228E0B0400971B67 /* suffix.json in Resources */,
+				535A255C228A29CA00971B67 /* ale.json in Resources */,
+				530F2699228A16B300431C0A /* races.json in Resources */,
+				535A255A228A29CA00971B67 /* nonAlcoholicDrinks.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53E3240C2285C98A0047571D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5337D8D2228A17BC00A539C7 /* Bartender.swift in Sources */,
+				5318AD9E229709F9009D4E2B /* UIView+Extension.swift in Sources */,
+				535EC37522946DBA0014A2C2 /* QuestViewController.swift in Sources */,
+				5318ADA022970B3A009D4E2B /* ColorConstants.swift in Sources */,
+				53A10835228F6A2D00287D67 /* ClienteleManager.swift in Sources */,
+				535EC3712294556B0014A2C2 /* Quest.swift in Sources */,
+				530EB13F228F35B3002A5902 /* TavernName.swift in Sources */,
+				535EC37322945DC10014A2C2 /* QuestsManager.swift in Sources */,
+				530EB141228F35EE002A5902 /* TavernNameManager.swift in Sources */,
+				53E3241C2285C98A0047571D /* D_D_Tavern_Aid.xcdatamodeld in Sources */,
+				53039A762285E4580087AD52 /* RumorsManager.swift in Sources */,
+				5337D8D6228A1B7700A539C7 /* Race.swift in Sources */,
+				53E3242B2285CD4D0047571D /* Accommodations.swift in Sources */,
+				5337D8D4228A17CA00A539C7 /* BartenderManager.swift in Sources */,
+				53039A8B2287BE560087AD52 /* REST.swift in Sources */,
+				535A2562228B75D500971B67 /* NPCLevelManager.swift in Sources */,
+				53039A782285E66E0087AD52 /* Rumor.swift in Sources */,
+				530EB145228F3CDD002A5902 /* MainViewController.swift in Sources */,
+				53A1083F22906D4C00287D67 /* GenderManager.swift in Sources */,
+				53039A7E2285F8600087AD52 /* AccommodationsManager.swift in Sources */,
+				53039A7A2285F6740087AD52 /* Food.swift in Sources */,
+				53039A7C2285F84A0087AD52 /* DrinksManager.swift in Sources */,
+				53E324292285CB9A0047571D /* Drink.swift in Sources */,
+				53E324312285CDD90047571D /* Taverns.swift in Sources */,
+				53E324142285C98A0047571D /* AppDelegate.swift in Sources */,
+				53039A8F228897410087AD52 /* Name.swift in Sources */,
+				53039A802285F8760087AD52 /* FoodManager.swift in Sources */,
+				535A2560228B75A000971B67 /* NPCLevel.swift in Sources */,
+				5337D8D8228A1BAC00A539C7 /* RacesManager.swift in Sources */,
+				53A10833228F6A0300287D67 /* Clientele.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		53E324172285C98A0047571D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53E324182285C98A0047571D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		53E3241F2285C98C0047571D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53E324202285C98C0047571D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53E324232285C98C0047571D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		53E324242285C98C0047571D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53E324262285C98C0047571D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3XA87D77BQ;
+				INFOPLIST_FILE = "D&D Tavern Aid/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rafaelplinio.D-D-Tavern-Aid";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		53E324272285C98C0047571D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3XA87D77BQ;
+				INFOPLIST_FILE = "D&D Tavern Aid/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rafaelplinio.D-D-Tavern-Aid";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53E3240B2285C98A0047571D /* Build configuration list for PBXProject "D&D Tavern Aid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53E324232285C98C0047571D /* Debug */,
+				53E324242285C98C0047571D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53E324252285C98C0047571D /* Build configuration list for PBXNativeTarget "D&D Tavern Aid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53E324262285C98C0047571D /* Debug */,
+				53E324272285C98C0047571D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		53E3241A2285C98A0047571D /* D_D_Tavern_Aid.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				53E3241B2285C98A0047571D /* D_D_Tavern_Aid.xcdatamodel */,
+			);
+			currentVersion = 53E3241B2285C98A0047571D /* D_D_Tavern_Aid.xcdatamodel */;
+			path = D_D_Tavern_Aid.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 53E324082285C98A0047571D /* Project object */;
+}

@@ -1,0 +1,14 @@
+[
+	{
+		"accommodation": "Poor (place on the floor near the hearth and a flea-ridden blanket amongst the riff-raff) for 1 sp/day."
+	},
+	{
+		"accommodation": "Common (placed on a raised, heated floor, blanket and pillow, amongst higher-class company) for 3 sp/day."
+	},
+	{
+		"accommodation": "Good (small private room with one bed, amenities and a covered chamber pot) for 5 sp/day."
+	},
+	{
+		"accommodation": "Noble (large private room with large bed, private bath with hot water on request, snacks on request, and private chamber pot in a separate chamber) for 1 gp/day."
+	}
+]

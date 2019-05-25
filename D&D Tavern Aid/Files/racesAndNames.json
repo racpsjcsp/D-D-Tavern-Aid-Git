@@ -1,0 +1,246 @@
+[
+    {
+        "race": "Gnome",
+        "genders": [{"gender":"Male",
+            "names": ["Xalgim","Lorick","Wilmop","Topip","Bripos","Lotor","Uriybar","Ronybar",
+                "Merdri","Dorji","Vallin","Pananer","Zilser","Umser","Bilkur","Tranan","Erser",
+                "Eniryn","Jebar","Urihim","Felzu","Ianwor","Vorben","Panahim","Farmin","Merji",
+                "Merhim","Dorkas","Saston","Ariser"]
+        },
+        {"gender": "Female",
+            "names": ["Tifayaris","Orna","Zinqys","Yobi","Galhani","Phidira","Yodysa","Vola","Loribi",
+                "Celdysa","Xyroniana","Breebys","Hesmila","Isoxis","Yokasys","Mywyse","Folrhana",
+                "Nigani","Elqys","Elli","Daphikasys","Celmiphi","Sabi","Eilitina","Sala","Klophina",
+                "Ordysa","Kloqaryn","Alumyra","Faena"]
+        }],
+        
+    },
+    {
+        "race": "Orc",
+        "genders": [{"gender":"Male",
+            "names": ["Dag","Bhok","Lakk","Ruk","Dhabzokk","Nurzak","Grubol","Gratrog","Bhurzag","Brak","Rhag",
+                "Grag","Rhal","Landog","Ondug","Guggug","Shumag","Zorukk","Ghodull","Zhog","Makk","Zhal","Jok",
+                "Dhokrokk","Ghumak","Rovag","Lugzokk","Dhabzon","Ghonub"]
+        },
+        {"gender": "Female",
+            "names": ["Nez","Rhek","Biz","Nav","Gamzuan","Nenzo","Sankaa","Vumah","Gadgua","Shedking","Sheng",
+                "Bhim","Mif","Giv","Ralaa","Awnki","Dethaz","Senseng","Shotul","Dhyegnau","Gof","Noh","Rhing",
+                "Sang","Mado","Rhudkeh","Hovreng","Dhumvao","Bhunsov","Mevrov"]
+        }],
+        
+    },
+    {
+        "race": "Dwarf",
+        "genders": [{"gender":"Male",
+            "names": ["Amnum","Kargarn","Horkahm","Hurrak","Thydram","Galdahr","Emryl","Belnur","Thurmar",
+                "Torbrek","Adgrim","Darnir","Ammund","Thomek","Brommyr","Rotmir","Buntharm","Garmin","Bramnum",
+                "Hurdren","Krumgarn","Amnom","Kharkam","Galtharm","Garkum","Horadin","Hulrum","Baermand",
+                "Baerrigg","Harrom"]
+        },
+        {"gender": "Female",
+            "names": ["Naslyl","Maerlynn","Edlynn","Ryndora","Brillera","Lasgwyn","Raenres","Sarnyl","Gwynria",
+                "Bronri","Ketnyl","Mislen","Dearnys","Brilwin","Arlinn","Nesnura","Gernura","Lesgwyn","Maerlyn",
+                "Tisniss","Kaitris","Barnar","Tisnan","Belglia","Bonnvan","Gwinres","Nisnas","Ingbera",
+                "Rednura","Lyslinn"]
+        }],
+        
+    },
+    {
+        "race": "Dragonborn",
+        "genders": [{"gender":"Male",
+            "names": ["Gherinn","Dodhall","Ravodaar","Jarcrath","Urowarum","Qelzavur","Jinsashi","Doxan","Morjurn",
+                "Marbor","Shagar","Rasqiroth","Sakris","Durythas","Ghebarum","Ravocrath","Narseth","Faercrath",
+                "Worbor","Naturim","Mordorim","Hibor","Wuwarum","Qelbroth","Morkax","Ardorim","Iorjurn",
+                "Udorinn","Tovull","Vrakmorn"]
+        },
+        {"gender": "Female",
+            "names": ["Nysrith","Dawophyl","Malyassa","Belthyra","Gurcoria","Ariel","Malsaadi","Thacys","Yrgwen",
+                "Navayla","Orikaryn","Thacoria","Eshrina","Susira","Hinthibra","Xyfyire","Kawophyl","Mikira",
+                "Zofsaadi","Orirish","Lilodrith","Dryswyn","Gurlyassa","Malshann","Welsipora","Cafyire","Kobirith",
+                "Lorahime","Malbirith","Loraxiris"]
+        }],
+        
+    },
+    {
+        "race": "Elf",
+        "genders": [{"gender":"Male",
+            "names": ["Craberos","Pamyar","Perhice","Baljor","Elris","Umenelis","Elqen","Theric","Beidan","Urisalor",
+                "Genquinal","Virkian","Dorpeiros","Beizumin","Aelen","Sylris","Beiceran","Ianquinal","Erxidor",
+                "Genbero","Thepeiros","Aeven","Pageiros","Yelwarin","Permaer","Daefir","Urisandoral","Elren",
+                "Perfaren","Balric"]
+        },
+        {"gender": "Female",
+            "names": ["Joleth","Zinphyra","Zinrona","Chaesatra","Xyrhana","Gilgwyn","Reybanise","Caikalyn","Zintris",
+                "Nerisatra","Xilthana","Urina","Birieth","Zinrieth","Miamys","Damys","Keyrona","Liaharice",
+                "Cairoris","Aravari","Miazorwyn","Quimoira","Jomys","Daelee","Jora","Adhana","Krisra","Zinqirelle",
+                "Magmys","Shadi"]
+        }],
+        
+    },
+    {
+        "race": "Halfling",
+        "genders": [{"gender":"Male",
+            "names": ["Pimzor","Quorich","Ersire","Vineon","Ricamin","Rimo","Korzin","Vinnan","Sanlos","Garos","Trynri",
+                "Odisira","Paedrey","Xansica","Rilyse","Trynlienne","Roscaryn","Thambyn","Wimita","Odimia","Uriry",
+                "Corvias","Yarpher","Merras","Xannad","Sankin","Orikas","Barnad","Panner","Quobul"]
+        },
+        {"gender": "Female",
+            "names": ["Jaytina","Calzira","Xanni","Arilyse","Vadove","Fenda","Gelkis","Rosna","Eikath","Hilfice","Hada",
+                "Paefira","Xandrey","Beldrey","Lidvira","Therna","Pruora","Varee","Therola","Fenyola","Zenlienne",
+                "Xanni","Oragwen","Xiola","Thamtina","Hilfira","Qiphina","Rosfice","Kelphina","Qizana"]
+        }],
+        
+    },
+    {
+        "race": "Human",
+        "genders": [{"gender":"Male",
+            "names": ["Reggy","Jay","Riston","Kirk","Sullivan","Farrell","Abdullah","Ephraim","Zakary",
+                "Hulbard","Korbinian","Noel","Nolan","Rogj","Wat","Alois","Vollert","Aloys","Hyatt","Karlis","Sergej","Jul",
+                "Jahn","Harcourt","Godard","Holm","Liborius","Kerman","Thierry","Woody","Emmyrson","Sennet","Udo","Ladislaus",
+                "Roderic","Hulburd","Drake","Norville","Dwyght","Galli","Roswell","Deshaun","Kasey","Emilio","Alan","Gerwin"]
+        },
+        {"gender": "Female",
+            "names": ["Darby","Lise","Haylee","Bijou","Daisy","Solange","Haley","Stefana","Estefani","Erme","Haleigh","Amabelle",
+                "Bessy","Felicity","Zelda","Stacy","Hayden","Roswitha","Jeannie","Valeri","Zaina","Veneta","Ev","Eva","Geri",
+                "Searlait","Alice","Cecelia","Renee","Stella","Jeane","Beate","Aimee","Theodora","Ezra","Josefine",
+                "Elvira","Jasmeen","Kendra","Lindsey","Nissy","Florrie","Tine","Elfi","Hildegard"]
+        }],
+        
+    },
+    {
+        "race": "Tiefling",
+        "genders": [{"gender":"Male",
+            "names": ["Andmarir","Lokeakas","Barcius","Kiladius","Kosmenos","Moradius","Aetcis","Misery","Horil",
+                "Andrus","Ekrakir","Kacis","Iaichar","Thethos","Akxikas","Aranris","Eternal","Gladness","Torment","Ammenos",
+                "Urixius","Ozchar","Akxus","Andichar","Ralvenom","Thenon","Thyrys","Thyrut","Arkmeros","Thanc"]
+        },
+        {"gender": "Female",
+            "names": ["Zaivari","Lemaia","Zailoth","Arauphis","Sarloth","Anigrea","Ariarali","Laughter","Quphi","Lecyra",
+                "Lelia","Nethwala","Dimeia","Briyola","Velhala","Piety","Courage","Ariyola","Orifirith","Zaxibis",
+                "Afmaia","Aninarei","Marnirith","Zaiuphis","Anguish","Yugoria","Valphi","Nacyra","Passyn","Moyra"]
+        }],
+        
+    },
+    {
+        "race": "Half Orc",
+        "genders": [{"gender":"Male",
+            "names": ["Borudim","Gromugall","Gramum","Duzar","Bonars","Guzar","Mobash","Morarak","Trukudur","Galan",
+                "Kruuz","Malidar","Zaoglar","Koburk","Honogur","Grumarak","Ronaagall","Urthirsh","Morobak",
+                "Therumash","Negur","Malotur","Gromudim","Hunumir","Renugar","Zevatir","Grubak","Thotir",
+                "Ukagur","Ukrudak"]
+        },
+        {"gender": "Female",
+            "names": ["Zenawar","Rashonir","Morudar","Tumotir","Vaneg","Lagigri","Falime","Rahkomira","Semi","Rahozi",
+                "Elitir","Sunudur","Miresha","Folerel","Gynizar","Kerarel","Mirug","Urimira","Elutir","Tamegur",
+                "Kotemi","Sunorook","Tuminar","Shutir","Gynuzara","Ubigur","Brigu","Ootedar","Garonchu","Rasuner"]
+        }],
+        
+    },
+    {
+        "race": "Half Elf",
+        "genders": [{"gender":"Male",
+            "names": ["Fallamir","Uanlumin","Wilcraes","Quonan","Craorin","Tyrhorn","Kevneiros","Meihomin","Tyrros",
+                "Sylhomin","Alminar","Sardeyr","Osreak","Wilkas","Elxian","Orilumin","Gaercraes","Ianstaer",
+                "Rafsariph","Horben","Walyeras","Arolamir","Xanxiron","Iloneiros","Uantorin","Oriqarim",
+                "Zyldithas","Zylhorn","Raftumil","Yorovar"]
+        },
+        {"gender": "Female",
+            "names": ["Phayerila","Urikilia","Vendiane","Alynys","Faewaris","Delviel","Qizenya","Caraerys","Relyra",
+                "Qitrana","Ilehana","Halywalyn","Reswaris","Kyssys","Qinys","Safnalore","Prihophe","Reldove",
+                "Venrila","Delhana","Bynrila","Marekaen","Corila","Arxipha","Iroyaries","Unathana","Norwalyn",
+                "Qicerys","Yeszenya","Jentihne"]
+        }],
+        
+    },
+    {
+        "race": "Aarakocra",
+        "genders": [{"gender":"Male",
+            "names": ["Grek","Sed","Guas","Kec","Khuark","Grullahk","Saciehk","Qlillieg","Serra","Khoukkierrk","Ak",
+                "Serrk","Kuarr","Krirr","Karr","Qlaccirr","Rukeeck","Qhikeck","Zalliss","Quceag","Cra","Qurk","Zus",
+                "Harr","Ick","Uieqak","Cakeerr","Uallas","Urrirk","Goulir"]
+        },
+        {"gender": "Female",
+            "names": ["Dag","Qhid","Qoorrk","Krurc","Rhurc","Kleccic","Karrar","Arri","Krouceerk","Khurraarr","Kool",
+                "Dae","Ga","Crouss","Kid","Gicce","Gulaarr","Klikkaf","Qlucarrk","Clucierc","Kuki","Geerr","Aiad",
+                "Khel","Kuhk","Dekeerrk","Krukeec","Qerrig","Qraqa","Khaqed"]
+        }],
+        
+    },
+    {
+        "race": "Aasimar",
+        "genders": [{"gender":"Male",
+            "names": ["Palgin","Enwar","Wuveim","Vidrant","Meavem","Alweint","Magronint","Pyrwinint","Iwivein",
+                "Hogeetam","Nulwien","Pelten","Anrint","Leilgain","Logwar","Cyvim","Woklielim","Vavritan",
+                "Ugrimal","Rovutar","Ulgen","Ylrar","Haiwint","Bunwant","Vigrant","Raldan","Zyvrevam","Ornivam",
+                "Lanletum","Broggeitian"]
+        },
+        {"gender": "Female",
+            "names": ["Vandria","Drindrin","Ninrol","Rhammi","Brolda","Zini","Vinmama","Omole","Thommozau","Nilvara",
+                "Asi","Phisor","Rhimi","Ilo","Rilo","Neado","Hidene","Oldomih","Aldromah","Thanlona","Braja",
+                "Iondrea","Ilve","Valvo","Zanra","Wove","Thadaram","Vomnana","Ardosa","Maleanaum"]
+        }],
+        
+    },
+    {
+        "race": "Bugbear",
+        "genders": [{"gender":"Male",
+            "names": ["Brerrun","Ghizzok","Ghiddan","Zhigir","Hrulk","Rirdomkk","Romkk","Rirk","Hrizzinn","Ghurrinn",
+                "Gherdarr","Nozok","Hrardurk","Rur","Zir","Bruzalk","Chrezzin","Tharrath","Neddik","Boddorr",
+                "Rurrink","Khezamkk","Vuttan","Riddinn","Gadrank","Nalk","Gedith","Buzuk","Bizzonn","Zhogrark"]
+        },
+        {"gender": "Female",
+            "names": ["Zhezzann","Thur","Khurr","Stun","Chriddonn","Khoth","Zhetromkk","Thok","Stinn","Regilk",
+                "Borgonn","Khin","Ghuzzimkk","Chrunn","Chrizunn","Zhirdolk","Thorr","Zidrith","Zhuth","Chrin",
+                "Thunn","Thevrunk","Valk","Rink","Gazink","Nar","Rurr","Ditronn"]
+        }],
+        
+    },
+    {
+        "race": "Firbolg",
+        "genders": [{"gender":"Male",
+            "names": ["Adnorin","Zumro","Urihice","Umetoris","Yelris","Petdan","Dorlen","Herris","Waesjeon","Sarmyar",
+                "Ergolor","Daewraek","Palen","Varo","Sargolor","Omalen","Traric","Naeberos","Virsalor","Qiris",
+                "Yinxidor","Elakian","Fengolor","Omajeon","Herric","Dorwarin","Omazumin","Persalor","Traris","Perfir"]
+        },
+        {"gender": "Female",
+            "names": ["Bilana","Orilana","Ravarieth","Krisrora","Bistina","Faedi","Torrora","Wynjyre","Greyra","Xyrrie",
+                "Grekalyn","Daena","Qileth","Ravaphine","Faecaryn","Xyrdi","Trisvyre","Wysabella","Neriharice",
+                "Lorakalyn","Fathyra","Arakrana","Chaemoira","Keykalyn","Liawynn","Miawenys","Quigella","Bryphyra",
+                "Yllazorwyn","Presbella"]
+        }],
+        
+    },
+    {
+        "race": "Goblin",
+        "genders": [{"gender":"Male",
+            "names": ["Crark","Gegrib","Tet","Zrerg","Cagdogg","Mudmug","Wormmouth","Bitesize","Weakface","Grubnose",
+                "Rot","Sardurk","Gudgerg","Vrark","Cidgelk","Snailarms","Bugbite","Noose","Snailhead","Sickmug",
+                "Zoggurk","Zrurg","Vuk","Eggu","Tedgog","Worm","Pest","Stinkgut","Neyes","Mudface"]
+        },
+        {"gender": "Female",
+            "names": ["Rabavok","Dildilli","Bilgi","Jurgral","Alza","Leech","Numbnose","Oafmaw","Gnatface","Lumpface",
+                "Get","Zugrak","Urzir","Vin","Uldra","Slugmug","Weakflank","Mudface","Dirtguts","Slimehead","Jirtin",
+                "Bogrir","Gas","Vubagor","Gigvaza","Wideknuckles","Mosswill","Snailbrain","Oneye","Brokenlegs"]
+        }],
+        
+    },
+    {
+        "race": "Hobgoblin",
+        "genders": [{"gender":"Male",
+            "names": ["Krokkor","Vrog","Agrurz","Shen","Okvel","Shak","Shazarerz","Rhol","Lud","Shalzeden","Ral",
+                "Vrogneg","Agrerg","Akerun","Shaknuc","Shorg","Klevun","Vorbon","Klekvar","Nundrorg","Lonkurg",
+                "Dazrarg","Garkak","Ogur","Khukrurg","Kralvrerorg","Rog","Gulvrorz","Luzec","Droker"]
+        },
+        {"gender": "Female",
+            "names": ["Khekran","Lurz","Klod","Kheknel","Dorkudan","Vokvovud","Lagnug","Zozrarz","Vrendur","Zrul",
+                "Kelzod","Akrur","Ugnec","Glagrador","Dakkog","Zravenorg","Unkarz","Dreldrud","Ulzurg","Ovar",
+                "Khekker","Lulven","Ravul","Ekrok","Duverad","Rhaldruzorg","Radel","Kruvlirok","Alvrel","Drozedek"]
+        }],
+        
+    }
+    
+]
+ 
+ 
+ 
+ 
