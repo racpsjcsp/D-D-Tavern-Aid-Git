@@ -22,7 +22,6 @@ class BartenderManager {
         let jsonRaceDecoder = JSONDecoder()
         races = try! jsonRaceDecoder.decode([Bartender].self, from: jsonRaceData)
 
-        
         let fileURLClass = Bundle.main.url(forResource: "classes", withExtension: "json")!
         let jsonClassData = try! Data(contentsOf: fileURLClass)
         let jsonClassDecoder = JSONDecoder()

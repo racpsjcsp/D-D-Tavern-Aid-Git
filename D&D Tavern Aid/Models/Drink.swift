@@ -8,26 +8,16 @@
 
 import Foundation
 
-class Drink: Codable {
-    let cheapDrinks: [String]
-    let ale: [String]
-    let wine: [String]
-    let fineWine: [String]
-    let otherDrinks: [String]
-    let underdarkDrinks: [String]
-    let planarDrinks: [String]
-    let nonAlcoholicDrinks: [String]
-    let magicDrinks: [String]
+struct Drink: Codable {
     
-    init(cheapDrinks: [String], ale: [String], wine: [String], fineWine: [String], otherDrinks: [String], underdarkDrinks: [String], planarDrinks: [String], nonAlcoholicDrinks: [String], magicDrinks: [String]) {
-        self.cheapDrinks = cheapDrinks
-        self.ale = ale
-        self.wine = wine
-        self.fineWine = fineWine
-        self.otherDrinks = otherDrinks
-        self.underdarkDrinks = underdarkDrinks
-        self.planarDrinks = planarDrinks
-        self.nonAlcoholicDrinks = nonAlcoholicDrinks
-        self.magicDrinks = magicDrinks
-    }
+    let name: String
+    let color: String
+    let description: String
+    let effect: String
+    let price: String
+    
 }
+
+
+
+

@@ -12,8 +12,6 @@ struct Bartender: Codable {
     let genders: [Gender]
     let race: String!
     
-    
-    
     init(genders: [Gender], race: String) {
         self.genders = genders
         self.race = race
