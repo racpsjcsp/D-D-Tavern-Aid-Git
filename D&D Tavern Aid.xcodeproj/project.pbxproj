@@ -29,6 +29,13 @@
 		5318AD9C22949DD4009D4E2B /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = 5318AD9B22949DD3009D4E2B /* test.json */; };
 		5318AD9E229709F9009D4E2B /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5318AD9D229709F9009D4E2B /* UIView+Extension.swift */; };
 		5318ADA022970B3A009D4E2B /* ColorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5318AD9F22970B3A009D4E2B /* ColorConstants.swift */; };
+		533059B622A59FB500212C5A /* 100npc.json in Resources */ = {isa = PBXBuildFile; fileRef = 533059B522A59FB400212C5A /* 100npc.json */; };
+		533059B822A5A00100212C5A /* Npc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533059B722A5A00100212C5A /* Npc.swift */; };
+		533059BA22A5A2B800212C5A /* NpcsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533059B922A5A2B800212C5A /* NpcsTableViewController.swift */; };
+		533059BE22A5AA6E00212C5A /* Poison.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533059BD22A5AA6E00212C5A /* Poison.swift */; };
+		533059C022A5AB0A00212C5A /* 100poisons.json in Resources */ = {isa = PBXBuildFile; fileRef = 533059BF22A5AB0A00212C5A /* 100poisons.json */; };
+		533059C222A5AB7000212C5A /* PoisonsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533059C122A5AB7000212C5A /* PoisonsManager.swift */; };
+		533059C422A5AE5500212C5A /* PoisonsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533059C322A5AE5500212C5A /* PoisonsTableViewController.swift */; };
 		5337D8D2228A17BC00A539C7 /* Bartender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5337D8D1228A17BC00A539C7 /* Bartender.swift */; };
 		5337D8D4228A17CA00A539C7 /* BartenderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5337D8D3228A17CA00A539C7 /* BartenderManager.swift */; };
 		5337D8D6228A1B7700A539C7 /* Race.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5337D8D5228A1B7700A539C7 /* Race.swift */; };
@@ -93,6 +100,13 @@
 		5318AD9B22949DD3009D4E2B /* test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = test.json; sourceTree = "<group>"; };
 		5318AD9D229709F9009D4E2B /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		5318AD9F22970B3A009D4E2B /* ColorConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConstants.swift; sourceTree = "<group>"; };
+		533059B522A59FB400212C5A /* 100npc.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 100npc.json; sourceTree = "<group>"; };
+		533059B722A5A00100212C5A /* Npc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Npc.swift; sourceTree = "<group>"; };
+		533059B922A5A2B800212C5A /* NpcsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NpcsTableViewController.swift; sourceTree = "<group>"; };
+		533059BD22A5AA6E00212C5A /* Poison.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poison.swift; sourceTree = "<group>"; };
+		533059BF22A5AB0A00212C5A /* 100poisons.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 100poisons.json; sourceTree = "<group>"; };
+		533059C122A5AB7000212C5A /* PoisonsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoisonsManager.swift; sourceTree = "<group>"; };
+		533059C322A5AE5500212C5A /* PoisonsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoisonsTableViewController.swift; sourceTree = "<group>"; };
 		5337D8D1228A17BC00A539C7 /* Bartender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bartender.swift; sourceTree = "<group>"; };
 		5337D8D3228A17CA00A539C7 /* BartenderManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BartenderManager.swift; sourceTree = "<group>"; };
 		5337D8D5228A1B7700A539C7 /* Race.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Race.swift; sourceTree = "<group>"; };
@@ -164,7 +178,10 @@
 				53039A7F2285F8760087AD52 /* FoodManager.swift */,
 				53A1083E22906D4C00287D67 /* GenderManager.swift */,
 				53039A8E228897410087AD52 /* Name.swift */,
+				533059B722A5A00100212C5A /* Npc.swift */,
 				530F95C922A1CD13004727E7 /* NpcsManager.swift */,
+				533059BD22A5AA6E00212C5A /* Poison.swift */,
+				533059C122A5AB7000212C5A /* PoisonsManager.swift */,
 				535EC3702294556B0014A2C2 /* Quest.swift */,
 				535EC37222945DC10014A2C2 /* QuestsManager.swift */,
 				5337D8D5228A1B7700A539C7 /* Race.swift */,
@@ -190,14 +207,16 @@
 		53039A84228644ED0087AD52 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				5318AD9F22970B3A009D4E2B /* ColorConstants.swift */,
+				530F95D122A1D2A6004727E7 /* CursesTableViewController.swift */,
+				53C09B32229A583900D418BB /* DrinksViewController.swift */,
 				530EB144228F3CDD002A5902 /* MainViewController.swift */,
+				533059B922A5A2B800212C5A /* NpcsTableViewController.swift */,
 				535EC37422946DBA0014A2C2 /* QuestViewController.swift */,
 				53039A8A2287BE560087AD52 /* REST.swift */,
-				5318AD9D229709F9009D4E2B /* UIView+Extension.swift */,
-				5318AD9F22970B3A009D4E2B /* ColorConstants.swift */,
-				53C09B32229A583900D418BB /* DrinksViewController.swift */,
 				530E04E922A07FBF00B25C9D /* SpecialDrinksTableViewController.swift */,
-				530F95D122A1D2A6004727E7 /* CursesTableViewController.swift */,
+				5318AD9D229709F9009D4E2B /* UIView+Extension.swift */,
+				533059C322A5AE5500212C5A /* PoisonsTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -205,8 +224,10 @@
 		53039A87228645360087AD52 /* Files */ = {
 			isa = PBXGroup;
 			children = (
-				53C09B30229A1F0400D418BB /* 100specialDrinks.json */,
 				530F95D522A1DCC8004727E7 /* 100curses.json */,
+				533059B522A59FB400212C5A /* 100npc.json */,
+				533059BF22A5AB0A00212C5A /* 100poisons.json */,
+				53C09B30229A1F0400D418BB /* 100specialDrinks.json */,
 				535A2566228E098800971B67 /* accommodations.json */,
 				535A2553228A29CA00971B67 /* ale.json */,
 				530F2696228A16AE00431C0A /* bartenderNames.json */,
@@ -327,6 +348,7 @@
 				530F2697228A16AE00431C0A /* bartenderNames.json in Resources */,
 				535A2569228E098800971B67 /* accommodations.json in Resources */,
 				535A2558228A29CA00971B67 /* wine.json in Resources */,
+				533059B622A59FB500212C5A /* 100npc.json in Resources */,
 				535A2568228E098800971B67 /* clientele.json in Resources */,
 				53E3241E2285C98C0047571D /* Assets.xcassets in Resources */,
 				535A255E228A29CA00971B67 /* cheapDrinks.json in Resources */,
@@ -338,6 +360,7 @@
 				535A2556228A29CA00971B67 /* otherDrinks.json in Resources */,
 				535A2557228A29CA00971B67 /* planarDrinks.json in Resources */,
 				535A2564228E034F00971B67 /* rumors.json in Resources */,
+				533059C022A5AB0A00212C5A /* 100poisons.json in Resources */,
 				53A10839228F7D6F00287D67 /* level.json in Resources */,
 				5318AD9C22949DD4009D4E2B /* test.json in Resources */,
 				535A255B228A29CA00971B67 /* fineWine.json in Resources */,
@@ -376,19 +399,24 @@
 				5337D8D4228A17CA00A539C7 /* BartenderManager.swift in Sources */,
 				53039A8B2287BE560087AD52 /* REST.swift in Sources */,
 				53039A782285E66E0087AD52 /* Rumor.swift in Sources */,
+				533059C422A5AE5500212C5A /* PoisonsTableViewController.swift in Sources */,
 				530EB145228F3CDD002A5902 /* MainViewController.swift in Sources */,
 				53A1083F22906D4C00287D67 /* GenderManager.swift in Sources */,
+				533059C222A5AB7000212C5A /* PoisonsManager.swift in Sources */,
 				530F95CE22A1CDFE004727E7 /* Curse.swift in Sources */,
 				530E04EA22A07FBF00B25C9D /* SpecialDrinksTableViewController.swift in Sources */,
+				533059B822A5A00100212C5A /* Npc.swift in Sources */,
 				53039A7E2285F8600087AD52 /* AccommodationsManager.swift in Sources */,
 				53039A7A2285F6740087AD52 /* Food.swift in Sources */,
 				53039A7C2285F84A0087AD52 /* DrinksManager.swift in Sources */,
 				53E324292285CB9A0047571D /* Drink.swift in Sources */,
+				533059BE22A5AA6E00212C5A /* Poison.swift in Sources */,
 				53E324312285CDD90047571D /* Taverns.swift in Sources */,
 				530F95D222A1D2A6004727E7 /* CursesTableViewController.swift in Sources */,
 				53E324142285C98A0047571D /* AppDelegate.swift in Sources */,
 				53039A8F228897410087AD52 /* Name.swift in Sources */,
 				53039A802285F8760087AD52 /* FoodManager.swift in Sources */,
+				533059BA22A5A2B800212C5A /* NpcsTableViewController.swift in Sources */,
 				5337D8D8228A1BAC00A539C7 /* RacesManager.swift in Sources */,
 				53A10833228F6A0300287D67 /* Clientele.swift in Sources */,
 				530F95CC22A1CD45004727E7 /* CursesManager.swift in Sources */,
